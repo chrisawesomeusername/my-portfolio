@@ -22,8 +22,8 @@ class Projects extends Component {
             {/* <hr style={{width: '95%', margin:'auto'}}></hr> */}
             <CardText>A basic HTML and CSS site eploring the user interface of a home automation application.</CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Site (coming soon!)</Button>
+              <Button href="https://github.com/chrisawesomeusername/summative-good" target="blank" colored>Github</Button>
+              <Button colored>Live Site (coming soon)</Button>
             </CardActions>
           </Card>
           {/* Project 2 */}
@@ -33,7 +33,7 @@ class Projects extends Component {
             {/* <hr style={{width: '95%', margin:'auto'}}></hr> */}
             <CardText>A simple accommodation booking website using Javascript functions to sort through and filter different options.</CardText>
             <CardActions border>
-              <Button colored>Github</Button>
+              <Button href="https://github.com/chrisawesomeusername/summative" target="blank" colored>Github</Button>
               <Button colored>Live Site</Button>
             </CardActions>
           </Card>
@@ -43,18 +43,7 @@ class Projects extends Component {
             <CardText>An archive of bands with basic Javascript looping functions to sort and filter.
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Site</Button>
-            </CardActions>
-          </Card>
-          <Card shadow={0} style={{minWidth: '450px', marginBottom: '50px'}}>
-            <CardTitle style={{color:'fff', height: '200px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png) center / contain no-repeat'}}>React Project</CardTitle>
-            <CardTitle>Sony Home Automation App</CardTitle>
-            <hr style={{width: '95%', margin:'auto'}}></hr>
-            <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
+              <Button href="https://github.com/chrisawesomeusername/formative2.2" target="blank" colored>Github</Button>
               <Button colored>Live Site</Button>
             </CardActions>
           </Card>
